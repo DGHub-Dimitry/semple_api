@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "402889400135",
+    "project_id": "dghub-dev",
+    "storage_bucket": "dghub-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402889400135:android:b039735ebfa97a1174b662",
+        "android_client_info": {
+          "package_name": "dev.dghub.semper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402889400135-68hml7pqg0aiu9k70apidgabehecrfv2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkyi-EQhRwUEKjiEZNlDwwMUqOxgEzUUY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402889400135-68hml7pqg0aiu9k70apidgabehecrfv2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "402889400135-fa5h4ljl3agdj4663qhf1kj1qdv71bt5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "dev.dghub.semper"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
