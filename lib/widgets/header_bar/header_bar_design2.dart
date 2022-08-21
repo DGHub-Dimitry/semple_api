@@ -61,9 +61,7 @@ class HeaderBarDesign2 extends GetView {
             const Expanded(child: WindowMover()),
             Responsive.isMobile(context)
                 ? IconButton(
-                    onPressed: () {
-                      Get.toNamed('/search');
-                    },
+                    onPressed: () {},
                     icon: Icon(
                       Icons.search,
                       size: 21,

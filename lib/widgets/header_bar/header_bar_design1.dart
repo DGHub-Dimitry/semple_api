@@ -74,9 +74,7 @@ class HeaderBarDesign1 extends GetView {
                       borderRadius: BorderRadius.circular(8),
                     ),
                     child: InkWell(
-                      onTap: () {
-                        Get.toNamed('/search');
-                      },
+                      onTap: () {},
                       child: SizedBox(
                         height: 35,
                         child: TextField(

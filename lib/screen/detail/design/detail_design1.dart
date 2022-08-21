@@ -88,6 +88,24 @@ class DetailDesign1 extends GetView {
                               style: const TextStyle(
                                   fontSize: 18, fontWeight: FontWeight.bold)),
                           const SizedBox(height: 20),
+                          Container(
+                            decoration: BoxDecoration(
+                              border: Border.all(
+                                  color: Colors.grey,
+                                  width: 1.0,
+                                  style: BorderStyle.solid),
+                              borderRadius: BorderRadius.circular(10),
+                              color: Colors.transparent,
+                            ),
+                            // height: 25,
+                            child: Center(
+                              child: Padding(
+                                padding: const EdgeInsets.fromLTRB(8, 0, 8, 0),
+                                child: Text(post.category['name'],
+                                    style: const TextStyle(fontSize: 10)),
+                              ),
+                            ),
+                          ),
                           Row(
                             children: [
                               RatingBar.builder(
@@ -145,14 +163,7 @@ class DetailDesign1 extends GetView {
                 child: Row(
                   children: [
                     IconButton(
-                        onPressed: () {
-                          if (token == '') {
-                            Get.toNamed('/account');
-                          } else {
-                            Get.toNamed('/comment', arguments: '');
-                          }
-                        },
-                        icon: Icon(Icons.comment_outlined)),
+                        onPressed: () {}, icon: Icon(Icons.comment_outlined)),
                     IconButton(
                         onPressed: () {},
                         icon: const Icon(
